@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Notas Multimedia</string>
+    <string name="titulo">Titulo</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="agregar">Agregar</string>
+    <string name="galeria">Imagen Galeria</string>
+    <string name="camara">Camara</string>
+    <string name="fotos">Camara</string>
+    <string name="video">Video</string>
+    <string name="button">Galeria</string>
+    <string name="videoGale">Video Galeria</string>
+    <string name="guardarA">Guardar</string>
+    <string name="guardarVideo">Guardar</string>
+    <string name="audio">Audio</string>
+    <string name="grabarA">Grabar</string>
+    <string name="detenerA">Detener</string>
+    <string name="reproducirA">Reproducir</string>
+    <string name="grabar">Grabar</string>
+    <string name="detener">Detener</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="guardar">Guardar</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="87dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="31dp"
+        android:text="Estado"
+        app:layout_constraintBottom_toTopOf="@+id/btnGrabar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGrabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/grabar"
+        app:layout_constraintBottom_toTopOf="@+id/btnDetener"
+        app:layout_constraintEnd_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <Button
+        android:id="@+id/btnDetener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/detener"
+        app:layout_constraintBottom_toTopOf="@+id/btnReproducir"
+        app:layout_constraintStart_toStartOf="@+id/btnGrabar"
+        app:layout_constraintTop_toBottomOf="@+id/btnGrabar" />
+
+    <Button
+        android:id="@+id/btnReproducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="1dp"
+        android:text="@string/reproducir"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardarAudio"
+        app:layout_constraintStart_toStartOf="@+id/btnDetener"
+        app:layout_constraintTop_toBottomOf="@+id/btnDetener" />
+
+    <Button
+        android:id="@+id/btnGuardarAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:layout_marginEnd="21dp"
+        android:text="@string/guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnReproducir"
+        app:layout_constraintTop_toBottomOf="@+id/btnReproducir" />
+</android.support.constraint.ConstraintLayout>
